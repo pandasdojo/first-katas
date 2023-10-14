@@ -1,0 +1,14 @@
+from bowling_kata.Frame import Frame
+
+
+class Game:
+    def __init__(self):
+        self._frame = [Frame() for _ in range(10)]
+        self._score: int = 0
+
+    def roll(self, pins: int):
+        pass
+
+    def score(self) -> int:
+        pass
+

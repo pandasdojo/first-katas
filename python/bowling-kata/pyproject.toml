@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bowling-kata"
+version = "0.1.0"
+description = ""
+authors = ["Cristian Mello <cristianc.mello@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^7.4.2"
+setuptools = "^68.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

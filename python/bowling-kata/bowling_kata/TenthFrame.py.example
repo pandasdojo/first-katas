@@ -1,0 +1,10 @@
+from bowling_kata.Frame import Frame
+from bowling_kata.Roll import Roll
+
+
+class TenthFrame(Frame):
+    def __init__(self):
+        super().__init__()
+        self._rolls = [Roll() for _ in range(3)]
+        self._bonus_roll: Roll()
+
